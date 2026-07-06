@@ -2,6 +2,7 @@
 
 **Translate Ren'Py visual novels with a local LLM — 100% offline, no data ever leaves your machine.**
 
+[![tests](https://github.com/Engue123/LocalTranslate/actions/workflows/ci.yml/badge.svg)](https://github.com/Engue123/LocalTranslate/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G3D422PBO3)
