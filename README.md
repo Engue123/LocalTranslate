@@ -26,8 +26,7 @@ identifiers**, translates them with the model of your choice, and writes a clean
 
 ## 📸 Screenshots
 
-> _A screenshot of the interface goes here — drop a PNG in `assets/` (e.g.
-> `assets/screenshot.png`) and reference it:_ `![LocalTranslate](assets/screenshot.png)`
+![LocalTranslate — the graphical interface](assets/screenshot.png)
 
 ## 🛡️ Safety — read-only by design
 
