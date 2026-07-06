@@ -21,11 +21,12 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y python3-tk
 
       - name: Install test dependencies
-        # The suite is fully mocked — it does NOT load a real model, so the heavy
-        # inference backend (llama-cpp-python) is not needed here.
+        # The suite is fully mocked — it never loads a real model — but a few tests
+        # import the inference backend, so llama-cpp-python (CPU wheel) is installed.
         run: |
           python -m pip install --upgrade pip
           pip install fonttools customtkinter pytest
+          pip install llama-cpp-python
 
       - name: Run tests
         # Skip the single test that loads a real GGUF model (not available in CI).
