@@ -1,0 +1,17 @@
+# LocalTranslate — runtime dependencies (100% offline after first model download)
+#
+# Backend invariant: Llama.cpp ONLY. Do not add ctranslate2 / torch / transformers.
+
+# Local LLM inference (Metal on Apple Silicon, CPU/CUDA elsewhere)
+llama-cpp-python>=0.3.0
+
+# GUI
+customtkinter>=5.2.0
+tkinterdnd2>=0.4.0          # optional drag & drop; app degrades gracefully if absent
+
+# Offline language detection
+fast-langdetect>=1.0.1
+
+# Font glyph-coverage checks (the font-adaptation layer, core/fonts.py) — reads a
+# font's cmap to detect missing glyphs for the target language. Pure Python, light.
+fonttools>=4.0.0
